@@ -1,0 +1,26 @@
+nav{
+    display:flex;
+    flex-basis:50%;
+    height:50px;
+    justify-content:center;
+    align-items:center;
+    flex:2;
+    justify-content:space-between;
+    padding: 0px 35px 0px 35px;
+    
+    }
+    .maincontentcontainer{
+        display:flex;
+        justify-content: space-around;
+    }
+    
+    .heading{
+        height: 105px;
+        background: "mediumslateblue";
+        font-size: 36px;
+    }
+    h2{
+        background:mediumseagreen;
+        flex-basis:45%;
+        
+    }
