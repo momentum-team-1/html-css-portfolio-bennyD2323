@@ -1,16 +1,21 @@
 body{
+    margin:0px;
+}
+
+.allwrapper{
     margin:10px 80px 10px 80px;
 }
 
 nav{
 display:flex;
 flex-basis:50%;
-height:50px;
+height:80px;
 justify-content:center;
 align-items:center;
 justify-content:space-between;
 padding: 0px 35px 0px 35px;
-background-color:#8f887f
+background-color:#8f887f;
+
 }
 .pageTitle{
 font-size: 48px;

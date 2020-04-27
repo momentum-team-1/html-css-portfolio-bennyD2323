@@ -1,11 +1,15 @@
+
 body{
-    margin:10px 80px 10px 80px;
+    margin:0px;
 }
 
+.allwrapper{
+    margin:10px 80px 10px 80px;
+}
 nav{
 display:flex;
 flex-basis:50%;
-height:50px;
+height:80px;
 justify-content:center;
 align-items:center;
 justify-content:space-between;
@@ -43,15 +47,21 @@ flex-direction:column;
     display:flex;
     flex-wrap:wrap;
     justify-content:space-evenly;
-    justify-content:center;
-    align-items:center;
+    
+    flex-direction: column;
 }
 
 
 .headingitem{
 margin: 5px 20px 5px 20px;
-flex-basis:30%;
-
+/* flex-basis:80%; */
+}
+.resumeboxtitle{
+    display:flex;
+    font-size:24px;
+    font-weight:bold;
+    justify-content:flex-start;
+    
 }
 .maincontentcontainer{
     display:flex;

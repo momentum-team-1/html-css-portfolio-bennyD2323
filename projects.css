@@ -1,11 +1,14 @@
 body{
-    margin:10px 80px 10px 80px;
+    margin:0px;
 }
 
+.allwrapper{
+    margin:10px 80px 10px 80px;
+}
 nav{
 display:flex;
 flex-basis:50%;
-height:50px;
+height:80px;
 justify-content:center;
 align-items:center;
 flex:2;
@@ -37,8 +40,8 @@ margin:35px;
     flex-direction:column;
 }
 .firstitemheadline{
-    border-style:dashed;
-    border-color:black;
+    /* border-style:dashed;
+    border-color:black; */
     justify-content:center;
     margin:10px 0px 10px 0px;
     font-size:32px;
@@ -47,8 +50,8 @@ margin:35px;
 .headingitem{
 margin: 5px 5px 5px 5px;
 flex-basis:40%;
-border-style:dashed;
-border-color:blue;
+/* border-style:dashed;
+border-color:blue; */
 
 justify-content:center;
 align-items:center;
